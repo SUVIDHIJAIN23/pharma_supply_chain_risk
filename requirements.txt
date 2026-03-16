@@ -4,3 +4,4 @@ numpy
 plotly
 dash
 jupyter-dash
+joblib
