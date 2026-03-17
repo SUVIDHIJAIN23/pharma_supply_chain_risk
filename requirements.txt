@@ -6,3 +6,5 @@ dash
 jupyter-dash
 joblib
 nbformat
+dash
+dash_bootstrap_components
