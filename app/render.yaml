@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: pharma-supply-chain-dashboard
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn --chdir app app:server
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.10.0
