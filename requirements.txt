@@ -8,3 +8,4 @@ joblib
 nbformat
 dash
 dash_bootstrap_components
+gunicorn
